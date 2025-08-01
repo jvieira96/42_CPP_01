@@ -14,12 +14,9 @@
 #                                NAMES & PATHS                                 #
 #==============================================================================#
 
-NAME = 	Unnecessary_violence
+NAME = 	replace
 
-SRCS =	main.cpp \
-		HumanA.cpp \
-		Weapon.cpp \
-		HumanB.cpp
+SRCS =	main.cpp
 
 OBJS =  $(SRCS:.cpp=.o)
 

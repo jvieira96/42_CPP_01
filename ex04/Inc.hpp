@@ -6,7 +6,7 @@
 /*   By: jpedro-f <jpedro-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/01 13:09:29 by jpedro-f          #+#    #+#             */
-/*   Updated: 2025/08/01 13:13:58 by jpedro-f         ###   ########.fr       */
+/*   Updated: 2025/08/01 15:22:30 by jpedro-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,7 @@
 #define RESET   "\033[0m"
 
 #include <iostream>
+#include <fstream>
+#include <string>
 
 #endif
