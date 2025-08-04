@@ -6,7 +6,7 @@
 /*   By: jpedro-f <jpedro-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/31 17:53:01 by jpedro-f          #+#    #+#             */
-/*   Updated: 2025/08/01 12:45:40 by jpedro-f         ###   ########.fr       */
+/*   Updated: 2025/08/04 14:02:35 by jpedro-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ HumanB::~HumanB() {
 	}
 }
 
-void HumanB::attack(){
+void HumanB::attack() const{
 	
 	if (_weapon == NULL){
 			std::cout << BLUE << "HumanB named "<< _name
